@@ -1,0 +1,65 @@
+body {
+  height: 100%;
+  background-color: black;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  opacity: 0.8;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+  height: auto;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none;
+  }
+.container {
+  height: auto;
+}
+}
+
+.carousel {
+  max-height: 100vh;
+}
+
+.carousel,
+.item,
+.active {
+  max-height: 100vh;
+
+}
+
+.container {
+  height: 100vh;
+  color: whitesmoke;
+}
+
+/* solves fixed header covering top of div on scrool */
+.container::before {
+    display: block;
+    content: " ";
+    margin-top: -40px;
+    height: 40px;
+    visibility: hidden;
+    pointer-events: none;
+}
