@@ -12,7 +12,7 @@ html {
 .navbar {
   margin-bottom: 0;
   border-radius: 0;
-  opacity: 0.8;
+  /* opacity: 0.8; */
 }
 
 /* Add a gray background color and some padding to the footer */
@@ -30,12 +30,12 @@ footer {
 
 /* Hide the carousel text when the screen is less than 600 pixels wide */
 @media (max-width: 600px) {
-.carousel-caption {
+/* .carousel-caption {
   display: none;
-  }
+  } */
 .container {
   height: auto;
-}
+  }
 }
 
 .carousel {
@@ -45,6 +45,8 @@ footer {
 .carousel,
 .item,
 .active {
+  /* display: block; */
+  /* text-align: center; */
   max-height: 100vh;
 
 }
@@ -62,4 +64,19 @@ footer {
     height: 40px;
     visibility: hidden;
     pointer-events: none;
+}
+
+#header_text {
+  width: 100%;
+  height: 80%;
+  margin-top: 0;
+  /* align-self: center;
+  align-items: center;
+  justify-content: center; */
+  position: absolute;
+  z-index: 100;
+}
+
+.center_text {
+  height: 100%;
 }
