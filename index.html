@@ -20,15 +20,15 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="#">Your logo</a>
+        <a class="navbar-brand" href="#">Band Name</a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
-          <li><a href="#about">About</a></li>
+          <li><a href="#shows">Shows</a></li>
           <li><a href="#listen">Listen</a></li>
-          <li><a href="#">Shows</a></li>
-          <li><a href="#">Merch</a></li>
+          <li><a href="#">merch</a></li>
+          <li><a href="#">contact</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <!-- <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li> -->
@@ -40,7 +40,7 @@
 <div class="container-fluid" id="header_text">
   <div class="row align-items-center center_text">
     <div class="col text-center">
-      <<h1>HELLO</h1>
+      <!-- <<h1>HELLO</h1> -->
     </div>
   </div>
 </div>
@@ -86,37 +86,53 @@
     </a> -->
 </div>
 
-<div class="container text-center" id="about">
-  <h3>Band Bio</h3><br>
-  <div class="row">
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
-    </div>
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Project 2</p>
-    </div>
-    <div class="col-sm-4">
-      <div class="well">
-       <p>Some text..</p>
+<div class="container" id="shows">
+  <div class="container">
+    <h3 class="text-uppercase text-center"><strong>upcoming shows</strong></h3>
+		<div class="row row-striped">
+			<div class="col-2 text-left">
+				<h1 class="display-4"><span class="badge badge-secondary">OCT</span></h1>
+				<h2>23</h2>
+			</div>
+			<div class="col-10">
+				<h3 class="text-uppercase"><strong>Ice Cream Social</strong></h3>
+				<ul class="list-inline">
+				    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> Monday</li>
+					<li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 12:30 PM - 2:00 PM</li>
+					<li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Cafe</li>
+				</ul>
+				<p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+		<div class="row row-striped">
+      <div class="col-2 text-left">
+        <h1 class="display-4"><span class="badge badge-secondary">OCT</span></h1>
+        <h2>25</h2>
       </div>
-      <div class="well">
-       <p>Some text..</p>
-      </div>
-    </div>
-  </div>
+			<div class="col-10">
+				<h3 class="text-uppercase"><strong>Operations Meeting</strong></h3>
+				<ul class="list-inline">
+				    <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> Friday</li>
+					<li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 2:30 PM - 4:00 PM</li>
+					<li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Room 4019</li>
+				</ul>
+				<p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		</div>
+	</div>
 </div><br>
 
 <div class="container text-center" id="listen">
-  <h3>Band Bio</h3><br>
+  <h3></h3><br>
   <div class="row">
-    <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      <p>Current Project</p>
+    <div class="col-sm-12">
+      <player>
+          <iframe style="border: 0; width: 500px; height: 340px;" src="https://bandcamp.com/EmbeddedPlayer/album=1412773888/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless>
+            <a href="http://mattstevenson.bandcamp.com/album/bordered-entities">Bordered Entities by Matt Stevenson</a></iframe>
+      </player>
     </div>
     <div class="col-sm-4">
-      <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <!-- <img src="https://f4.bcbits.com/img/a0818985293_10.jpg" class="img-responsive" style="width:100%" alt="Image"> -->
       <p>Project 2</p>
     </div>
     <div class="col-sm-4">
@@ -128,6 +144,7 @@
       </div>
     </div>
   </div>
+
 </div><br>
 
 <footer class="container-fluid text-center">
